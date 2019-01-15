@@ -20,6 +20,11 @@
   console.log(test());
   ```
 
+//The first console.log will print out Aurelio De Rosa but not store it. 
+//The var test will store the  getFullName: function (Aurelio De Rosa) under test. 
+//The console.log will print the getFullName; function since it was stored as a variable Printing " Aurelio De Rosa".
+
+
 2. What will you see in the console for the following example?
   ```
   var a = 1; 
@@ -29,12 +34,12 @@
       function a() {} 
   } 
   b(); 
-  console.log(a);    
+  console.log(a);   10 
   ```
 
-* Create an array called ```peopleList``` objects using *Object Literal* notation. 
+3.* Create an array called ```peopleList``` objects using *Object Literal* notation. 
 
-* Each 'person' object in the 'people' collection should have the following information:
+  * Each 'person' object in the 'people' collection should have the following information:
 
 First Name
 Last Name
